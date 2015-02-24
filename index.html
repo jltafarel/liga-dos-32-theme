@@ -8,9 +8,9 @@
 </head>
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- Botão para abrir menu mobile -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
@@ -18,14 +18,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+        <!-- Logo mobile -->
         <ul class="navbar-center hidden-lg">
           <li>
             <a href="#"><img class="logo-mobile" src="img/logo.png"></a>
           </li>
         </ul>
       </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- Items da esquerda -->
         <ul class="nav navbar-nav">
           <li>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">NFL <span class="caret"></span></a>
@@ -50,13 +51,13 @@
             <a href="#">Power Ranking</a>
           </li>
         </ul>
-
+        <!-- Logo centralizado -->
         <ul class="navbar-center hidden-xs hidden-sm">
           <li>
             <a href="#"><img class="logo" src="img/logo.png"></a>
           </li>
         </ul>
-
+        <!-- Items da direita -->
         <ul class="nav navbar-nav navbar-right">
           <li>
             <a href="#">A Liga Explica</a>
@@ -72,50 +73,84 @@
           </li>
         </ul>
       </div>
-      <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container -->
   </nav>
+  <!-- Inicio da pagina -->
   <div class="container">
-    <div class="row">
+    <div class="row site-content">
+      <!-- Coluna principal do site -->
       <div class="col-lg-8 col-md-12">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
+        <div class="row">
+          <!-- Carrosell -->
+          <div class="col-md-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
 
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img class="img-responsive" src="http://placehold.it/750x500" alt="">
-            </div>
-            <div class="item">
-              <img class="img-responsive" src="http://placehold.it/750x500" alt="">
-            </div>
-            <div class="item">
-              <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                </div>
+                <div class="item">
+                  <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                </div>
+                <div class="item">
+                  <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
             </div>
           </div>
-
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
+          <!-- Destaques -->
+          <div class="col-md-12 col-lg-12">
+            <h2 class="page-header">Destaques</h2>
+            <div class="col-lg-6 col-md-12">
+              <div class="featured_post">
+                <div class="meta-date">Thursday, September 4, 9 minutes ago</div>
+                <div class="post-name">
+                  <div class="post-image"><img src="img/temp/entry_img_1.jpg" width="300" height="295" alt="" /></div>
+                  <div class="post-title"><a href="article.html">Tiger Woods plays down incident</a></div>
+                </div>
+                <div class="post-short">Last week, New York Knicks shooting specialist and players' union vice president Roger Mason Junior. caused a stir when his Twitter account pontaneously combusted. and mistakenly told everyone that it ...</div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="col col_1_3">
+                <div class="featured_post">
+                  <div class="meta-date">Thursday, September 4, 1 hour ago</div>
+                  <div class="post-name">
+                    <div class="post-image"><img src="img/temp/entry_img_2.jpg" width="300" height="200" alt="" /></div>
+                    <div class="post-title"><a href="article.html">Exemplo de matéria 2</a></div>
+                  </div>
+                  <p class="post-short">Ian Kennedy failed to record win No. 20, but the Arizona Diamond backs still pulled out a 5-4 victory over the Los Angeles Dodgers after Chris Young worked a bases-loaded walk in the 10th inning till pulled out a 5-4 victory.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- Coluna lateral do site -->
       <div class="col-lg-4 col-md-12">
         <div class="row">
+          <!-- Icones redes sociais -->
           <div class="col-md-12">
             <img class = "social" src="img/social.jpg">
           </div>
         </div>
         <div class="row">
+          <!-- Banner -->
           <div class="col-md-12">
             <img src="img/logo-nfl.jpg">
           </div>
@@ -124,6 +159,6 @@
     </div>
   </div>
   <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
