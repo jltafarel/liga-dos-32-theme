@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/scrolling-nav.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <!-- Navigation -->
   <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -19,9 +20,9 @@
           <span class="icon-bar"></span>
         </button>
         <!-- Logo mobile -->
-        <ul class="navbar-center hidden-lg">
-          <li>
-            <a href="#"><img class="logo-mobile" src="img/logo.png"></a>
+        <ul class="nav navbar-center hidden-lg">
+          <li class="nav-li-override">
+            <img class="logo-mobile" src="img/logo.png">
           </li>
         </ul>
       </div>
@@ -52,9 +53,9 @@
           </li>
         </ul>
         <!-- Logo centralizado -->
-        <ul class="navbar-center hidden-xs hidden-sm">
+        <ul class="nav navbar-center hidden-xs hidden-sm">
           <li>
-            <a href="#"><img class="logo" src="img/logo.png"></a>
+            <img class="logo" src="img/logo.png">
           </li>
         </ul>
         <!-- Items da direita -->
@@ -116,6 +117,8 @@
           <!-- Destaques -->
           <div class="col-md-12 col-lg-12">
             <h2 class="page-header">Destaques</h2>
+          </div>
+          <div class="col-md-12 col-lg-12">
             <div class="col-lg-6 col-md-12">
               <div class="featured_post">
                 <div class="meta-date">Thursday, September 4, 9 minutes ago</div>
@@ -159,6 +162,8 @@
     </div>
   </div>
   <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/scrolling-nav.js"></script>
 </body>
 </html>
