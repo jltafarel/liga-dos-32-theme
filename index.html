@@ -9,73 +9,75 @@
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-      <!-- Botão para abrir menu mobile -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <!-- Logo mobile -->
-        <ul class="nav navbar-center hidden-lg">
-          <li class="nav-li-override">
-            <img class="logo-mobile" src="img/logo.png">
-          </li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Botão para abrir menu mobile -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Logo mobile -->
+          <ul class="nav navbar-center hidden-lg">
+            <li class="nav-li-override">
+              <img class="logo-mobile" src="img/logo.png">
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <!-- Items da esquerda -->
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">NFL <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Notícias do dia</a></li>
+                <li><a href="#">Matérias</a></li>
+                <li><a href="#">Classificação</a></li>
+                <li><a href="#">Fantasy</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Colunas <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Coluna dinâmica 1</a></li>
+                <li><a href="#">Coluna dinâmica 2</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Podcast</a>
+            </li>
+            <li>
+              <a href="#">Power Ranking</a>
+            </li>
+          </ul>
+          <!-- Logo centralizado -->
+          <ul class="nav navbar-center hidden-xs hidden-sm">
+            <li>
+              <img class="logo" src="img/logo.png">
+            </li>
+          </ul>
+          <!-- Items da direita -->
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">A Liga Explica</a>
+            </li>
+            <li>
+              <a href="#">A Liga e a História</a>
+            </li>
+            <li>
+              <a href="#">Equipe</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <!-- Items da esquerda -->
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">NFL <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Notícias do dia</a></li>
-              <li><a href="#">Matérias</a></li>
-              <li><a href="#">Classificação</a></li>
-              <li><a href="#">Fantasy</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Colunas <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Coluna dinâmica 1</a></li>
-              <li><a href="#">Coluna dinâmica 2</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Podcast</a>
-          </li>
-          <li>
-            <a href="#">Power Ranking</a>
-          </li>
-        </ul>
-        <!-- Logo centralizado -->
-        <ul class="nav navbar-center hidden-xs hidden-sm">
-          <li>
-            <img class="logo" src="img/logo.png">
-          </li>
-        </ul>
-        <!-- Items da direita -->
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="#">A Liga Explica</a>
-          </li>
-          <li>
-            <a href="#">A Liga e a História</a>
-          </li>
-          <li>
-            <a href="#">Equipe</a>
-          </li>
-          <li>
-            <a href="#">Contato</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
   <!-- Inicio da pagina -->
   <div class="container">
     <div class="row site-content">
@@ -207,6 +209,42 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-12 col-lg-6">
+            <div class="row">
+              <div class="col-md-12 col-lg-12">
+                <h2 class="page-header">Coluna do dia</h2>
+                <div class="col col_1_3">
+                  <div class="featured_post">
+                    <div class="meta-date">Thursday, September 4, 1 hour ago</div>
+                    <div class="post-name">
+                      <div class="post-image"><img src="img/temp/entry_img_2.jpg" width="300" height="200" alt="" /></div>
+                      <div class="post-title"><a href="article.html">Exemplo de matéria 2</a></div>
+                    </div>
+                    <p class="post-short">Ian Kennedy failed to record win No. 20, but the Arizona Diamond backs still pulled out a 5-4 victory over the Los Angeles Dodgers after Chris Young worked a bases-loaded walk in the 10th inning till pulled out a 5-4 victory.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <div class="row">
+              <div class="col-md-12 col-lg-12">
+                <h2 class="page-header">Especial</h2>
+                <div class="col col_1_3">
+                  <div class="featured_post">
+                    <div class="meta-date">Thursday, September 4, 1 hour ago</div>
+                    <div class="post-name">
+                      <div class="post-image"><img src="img/temp/entry_img_2.jpg" width="300" height="200" alt="" /></div>
+                      <div class="post-title"><a href="article.html">Exemplo de matéria 2</a></div>
+                    </div>
+                    <p class="post-short">Ian Kennedy failed to record win No. 20, but the Arizona Diamond backs still pulled out a 5-4 victory over the Los Angeles Dodgers after Chris Young worked a bases-loaded walk in the 10th inning till pulled out a 5-4 victory.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- Coluna lateral do site -->
       <div class="col-lg-3 col-md-12">
@@ -225,6 +263,14 @@
       </div>
     </div>
   </div>
+  <hr>
+  <footer>
+    <nav class="navbar navbar-bottom navbar-static-bottom">
+      <div class="container">
+        <p class="text-muted credit">Este é o footer do <a href="http://ligados32.wordpress.com">Liga dos 32</a>.</p>
+      </div>
+    </nav>
+  </footer>
   <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>

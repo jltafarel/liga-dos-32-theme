@@ -188,3 +188,7 @@ body {
   float: center;
   margin: 10px 0;
 }
+
+.navbar-bottom{
+  padding: 0px !important
+}
