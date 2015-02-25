@@ -95,10 +95,18 @@ body {
 
     .logo{
       position: absolute;
-      margin-top: -25px;
+      margin-top: -15px;
       margin-left: -25px;
       width: 100px;
       height: auto;
+    }
+    .logo-link{
+      position: absolute !important;
+      margin-top: -25px;
+      margin-left: -25px;
+    }
+    .logo-link:hover{
+      background: none !important;
     }
 }
 
