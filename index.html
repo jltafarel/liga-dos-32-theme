@@ -31,7 +31,7 @@
           <!-- Items da esquerda -->
           <ul class="nav navbar-nav">
             <li>
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">NFL <span class="caret"></span></a>
+              <a href="#" class="dropdown" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="400" data-close-others="true" aria-expanded="false">NFL</span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Notícias do dia</a></li>
                 <li><a href="#">Matérias</a></li>
@@ -40,7 +40,7 @@
               </ul>
             </li>
             <li>
-              <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Colunas <span class="caret"></span></a>
+              <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" data-delay="400" data-close-others="true" aria-expanded="false">Colunas</a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Coluna dinâmica 1</a></li>
                 <li><a href="#">Coluna dinâmica 2</a></li>
@@ -92,11 +92,19 @@
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
               </ol>
 
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
+                  <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                </div>
+                <div class="item">
+                  <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                </div>
+                <div class="item">
                   <img class="img-responsive" src="http://placehold.it/750x500" alt="">
                 </div>
                 <div class="item">
@@ -333,12 +341,13 @@
             <a href="https://www.facebook.com/ligados32" target="blank"><img class = "social" src="img/fb-social.png"></a>
             <a href="https://twitter.com/LigaDos32" target="blank"><img class = "social" src="img/twitter-social.png"></a>
             <a href="https://instagram.com/ligados32/" target="blank"><img class = "social" src="img/instagram-social.png"></a>
+            <a href="#" target="blank"><img class = "social" src="img/rss.png"></a>
           </div>
         </div>
         <!-- Banner -->
         <div class="row">
           <div class="col-md-12">
-            <h4 class="page-header">Banner</h4>
+            <hr>
             <a href="https://www.big4.com.br" target="blank"><img style="width: 300px;" src="img/banner-nfl-liga-dos-32.jpg"></a>
           </div>
         </div>
@@ -410,5 +419,6 @@
     <script src="js/jquery.easing.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <script src="js/bootstrap-hover-dropdown.min.js"></script>
   </body>
   </html>
